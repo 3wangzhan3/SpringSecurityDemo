@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>登录界面</h1>
+
+    <!--请求路径必须为/login，method必须为post-->
+    <form action="/login" method="post">
+
+        <table>
+            <tr>
+                <!--用户名必须是username-->
+                <td>用户名</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <!--密码必须是password-->
+                <td>密码</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="登录">
+                </td>
+
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>
